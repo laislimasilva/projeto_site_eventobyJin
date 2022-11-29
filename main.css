@@ -1,0 +1,161 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body, input, textarea {
+    font-family: 'Paytone One', sans-serif;
+}
+
+
+body{
+    background-color: rgb(191, 206, 250);
+}
+header {
+    padding: 16px 0;
+    background-color: rgb(106, 190, 249);
+    color: rgb(136, 244, 159);
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: rgb(40, 104, 168);
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container img{
+    height: 450px;
+    
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: rgb(105, 167, 249);
+}
+
+section{
+    color: black;
+}
+section p{
+    margin-bottom: 8px;
+   
+}
+
+
+.jin{
+    margin-right: 32px;
+}
+
+.Social-links img{
+    height: 24px;
+}
+
+.Social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.Social-links li a {
+text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea, form button{
+    display: block;
+width: 320px;
+margin-bottom: 8px;
+padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: rgb(178, 125, 227);
+    color: rgb(35, 34, 136);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: blueviolet;
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(0, 68, 255);
+} 
+
+footer{
+    background-color: blueviolet;
+    color: black;
+    padding: 16px 0;
+}
